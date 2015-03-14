@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grun-contrib-jshint' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json package.json@0.0.0 No repository field.
+5 verbose cache add [ 'grun-contrib-jshint', null ]
+6 verbose cache add name=undefined spec="grun-contrib-jshint" args=["grun-contrib-jshint",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grun-contrib-jshint',
+7 verbose parsed url   path: 'grun-contrib-jshint',
+7 verbose parsed url   href: 'grun-contrib-jshint' }
+8 silly lockFile a07d9e88-grun-contrib-jshint grun-contrib-jshint
+9 verbose lock grun-contrib-jshint /Users/stefanredfield/.npm/a07d9e88-grun-contrib-jshint.lock
+10 silly lockFile a07d9e88-grun-contrib-jshint grun-contrib-jshint
+11 silly lockFile a07d9e88-grun-contrib-jshint grun-contrib-jshint
+12 verbose addNamed [ 'grun-contrib-jshint', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 4ae7e009-grun-contrib-jshint grun-contrib-jshint@
+15 verbose lock grun-contrib-jshint@ /Users/stefanredfield/.npm/4ae7e009-grun-contrib-jshint.lock
+16 silly addNameRange { name: 'grun-contrib-jshint', range: '*', hasData: false }
+17 verbose request where is /grun-contrib-jshint
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 453858f93bf9cc33
+20 verbose url raw /grun-contrib-jshint
+21 verbose url resolving [ 'https://registry.npmjs.org/', './grun-contrib-jshint' ]
+22 verbose url resolved https://registry.npmjs.org/grun-contrib-jshint
+23 verbose request where is https://registry.npmjs.org/grun-contrib-jshint
+24 info trying registry request attempt 1 at 11:49:01
+25 http GET https://registry.npmjs.org/grun-contrib-jshint
+26 http 404 https://registry.npmjs.org/grun-contrib-jshint
+27 verbose headers { date: 'Fri, 13 Mar 2015 18:49:01 GMT',
+27 verbose headers   server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-lax1426-LAX',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1426272541.624543,VS0,VE95',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Fri, 13 Mar 2015 18:49:01 GMT',
+28 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1426272541.624543,VS0,VE95',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 4ae7e009-grun-contrib-jshint grun-contrib-jshint@
+30 silly lockFile 4ae7e009-grun-contrib-jshint grun-contrib-jshint@
+31 error 404 404 Not Found: grun-contrib-jshint
+31 error 404
+31 error 404 'grun-contrib-jshint' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.1.0
+33 error command "node" "/usr/local/bin/npm" "install" "grun-contrib-jshint"
+34 error cwd /Users/stefanredfield/Desktop/new_sites/codefellows/build-server
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

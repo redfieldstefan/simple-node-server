@@ -1,0 +1,14 @@
+{
+	"globals": {
+		"require": false,
+		"document": false,
+		"console": false
+	},
+	
+
+	"globalstrict": true,
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+	"indent": 4
+}

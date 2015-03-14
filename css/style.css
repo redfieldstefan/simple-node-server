@@ -1,0 +1,105 @@
+* {
+	font-family: 'raleway', sans-serif;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	background: url('../img/buckwheat-background.jpg') no-repeat center;
+	background-size: cover;
+
+}
+
+h1 {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	width: 50%;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+	float: left;
+	width: 45%;
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
+	padding-left: 55%;
+}
+
+.content p {
+	color: white;
+	padding-bottom: 25px;
+	padding-left: 2.5%;
+	float: left;
+}
+
+.text {
+	float: left;
+}
+
+.text h1 {
+	color: red;
+	font-weight: lighter;
+	width: 50%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.text p {
+	width: 60%;
+}
+
+.text img {
+	width: 20%;
+	float: left;
+}
+
+.link {
+	width: 100%;
+	float: left;
+
+}
+
+.link h3 {
+	width: 80%;
+	margin-right: 10%;
+	margin-top: 25px;
+	color:  #339966;
+	background: white;
+	border: 2px solid white;
+	border-bottom: 0;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+.link .button {
+	float: left;
+	height: 65px;
+	width: 80%;
+	background: tomato;
+	border: 2px solid white;
+}
+
+	.link .button:hover {
+		background: #990000;
+		border: 2px solid tomato;
+	}
+
+	.link .button:hover > p {
+		color: tomato;
+	}
+
+.link .button p {
+	width: 100%;
+	padding-top: 23px;
+	text-align: center;
+	padding-left: 0;
+}
