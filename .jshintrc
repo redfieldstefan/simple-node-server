@@ -2,7 +2,8 @@
 	"globals": {
 		"require": false,
 		"document": false,
-		"console": false
+		"console": false,
+		"__dirname": false
 	},
 	
 
@@ -10,5 +11,6 @@
 	"trailing": true,
 	"undef": true,
 	"unused": true,
-	"indent": 4
+	"indent": 4,
+	"quotmark": "single"
 }

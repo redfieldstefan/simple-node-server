@@ -2,11 +2,12 @@ module.exports = function(grunt) {
 	'use strict';
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-jscs');
 
 	grunt.initConfig({
 		jshint: {
 			files: [
-				"q2.js"
+				"server.js"
 			],
 
 			options: {
@@ -16,18 +17,28 @@ module.exports = function(grunt) {
 
 		watch: {
 			files: [
-				'q2.js'
+				'server.js'
 			],
 
 			tasks: [
-				'jshint'
+				'jshint',
+				'jscs'
 			]
-		} 
+		},
+
+		jscs: {
+			src: ['server.js'],
+
+		    options: {
+		    	config: '.jscsrc'
+		    }				
+    	} 
 
 	});
 
 	grunt.registerTask('default', [
 		'jshint',
+		'jscs',
 		'watch'
 	]);
 

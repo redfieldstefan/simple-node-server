@@ -1,0 +1,26 @@
+{
+  "name": "build-server",
+  "version": "1.0.0",
+  "description": "simple node http server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redfieldstefan/simple-node-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redfieldstefan/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/redfieldstefan/simple-node-server",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.5.0"
+  }
+}
