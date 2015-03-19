@@ -29,10 +29,10 @@ module.exports = function(grunt) {
 		jscs: {
 			src: ['server.js'],
 
-		    options: {
-		    	config: '.jscsrc'
-		    }				
-    	} 
+			options: {
+				config: '.jscsrc'
+			}
+		}
 
 	});
 
